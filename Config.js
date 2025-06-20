@@ -3,15 +3,15 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 // Contact details
-global.ownernomer = process.env.OWNER_NOMER || "2348109263390";
+global.ownernomer = process.env.OWNER_NOMER || "255742562733";
 global.ytname = process.env.YT_NAME || "YT: @EliteProTech";
 global.socialm = process.env.SOCIAL_M || "GitHub: EliteProTech";
 global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
 
 // Creator details
-global.ownernumber = process.env.OWNER_NUMBER || '2348109263390';
-global.ownername = process.env.OWNER_NAME || 'ElitePro';
-global.botname = process.env.BOT_NAME || 'ELITE-PRO-V1';
+global.ownernumber = process.env.OWNER_NUMBER || '255742562733';
+global.ownername = process.env.OWNER_NAME || 'Vai';
+global.botname = process.env.BOT_NAME || 'V AI';
 
 // Default settings 
 global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
@@ -24,7 +24,7 @@ global.autobio = process.env.AUTO_BIO !== 'false'; // default true
 global.anti92 = process.env.ANTI_92 === 'true';
 global.autoswview = process.env.AUTO_SW_VIEW !== 'false'; // default true
 global.welcome = process.env.WELCOME !== 'false'; // default true
-global.autoreact = process.env.AUTO_REACT === 'true';
+global.autoreact = process.env.AUTO_REACT === 'false';
 global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'true';
 
 // Thumbnail profile picture
