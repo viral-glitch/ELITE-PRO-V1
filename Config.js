@@ -3,15 +3,15 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 // Contact details
-global.ownernomer = process.env.OWNER_NOMER || "255742562733";
+global.ownernomer = process.env.OWNER_NOMER || "255696252662";
 global.ytname = process.env.YT_NAME || "YT: @EliteProTech";
 global.socialm = process.env.SOCIAL_M || "GitHub: EliteProTech";
 global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
 
 // Creator details
-global.ownernumber = process.env.OWNER_NUMBER || '255742562733';
+global.ownernumber = process.env.OWNER_NUMBER || '255696252662';
 global.ownername = process.env.OWNER_NAME || 'Vai';
-global.botname = process.env.BOT_NAME || 'Vai';
+global.botname = process.env.BOT_NAME || 'Jofrey';
 
 // Default settings 
 global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
