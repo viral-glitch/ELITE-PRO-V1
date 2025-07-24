@@ -3,15 +3,15 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 // Contact details
-global.ownernomer = process.env.OWNER_NOMER || "255686621811";
+global.ownernomer = process.env.OWNER_NOMER || "255719848080";
 global.ytname = process.env.YT_NAME || "YT: @EliteProTech";
 global.socialm = process.env.SOCIAL_M || "GitHub: EliteProTech";
 global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
 
 // Creator details
-global.ownernumber = process.env.OWNER_NUMBER || '255686621811';
+global.ownernumber = process.env.OWNER_NUMBER || '255719848080';
 global.ownername = process.env.OWNER_NAME || 'Vai';
-global.botname = process.env.BOT_NAME || 'Ceoarens;
+global.botname = process.env.BOT_NAME || 'James;
 
 // Default settings 
 global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
@@ -25,7 +25,7 @@ global.anti92 = process.env.ANTI_92 === 'true';
 global.autoswview = process.env.AUTO_SW_VIEW !== 'false'; // default true
 global.welcome = process.env.WELCOME !== 'false'; // default true
 global.autoreact = process.env.AUTO_REACT === 'false';
-global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'true';
+global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'false';
 
 // Thumbnail profile picture
 global.elitepropp = process.env.ELITE_PRO_PP || 'https://i.ibb.co/jk0ynvbn/7a8c4b5b617fa11a1e9a61190f427546.jpg';
